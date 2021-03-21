@@ -27,10 +27,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Home</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Product</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/product">Product</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/contact-us">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -39,7 +39,7 @@
         @yield('content')
 
         <!-- Footer-->
-        <footer class="footer py-4">
+        <footer class="footer py-4" class="bg-dark text-white">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-left">Copyright @ Fanadh Beauty</div>
